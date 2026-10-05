@@ -27,4 +27,6 @@ def eliminar_empleado(id):
             conexion.close()
             print("conexion cerrada")
             
+        
+            
             
