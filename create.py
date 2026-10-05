@@ -1,6 +1,6 @@
 import sqlite3
 
-conn = sqlite3.connect(r'C:\Users\tallerespa\Downloads\Ecotech\Ecotech\EcoTech_POO\Ecotech_Dbase.db')
+conn = sqlite3.connect('Ecotech_Dbase.db')
 c = conn.cursor()
 
 # Datos a insertar
